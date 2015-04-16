@@ -41,6 +41,7 @@
 
 - (void) showZoomedProfile: (UIButton *) sender
 {
+
     NSLog(@"Profile clicked");
 }
 

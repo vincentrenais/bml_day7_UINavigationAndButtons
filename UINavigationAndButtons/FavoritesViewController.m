@@ -47,6 +47,11 @@
 
 - (void)showProfile: (UIButton *) sender {
     
+//    ProfileViewController *linkToProfile = [[ProfileViewController alloc]init];
+//    
+//    UINavigationController *profileNavController = [[UINavigationController alloc] initWithRootViewController:profileViewController];
+//    
+    
     NSLog(@"showProfile clicked");
     
 }
