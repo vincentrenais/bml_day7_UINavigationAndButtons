@@ -47,13 +47,12 @@
 
 - (void)showProfile: (UIButton *) sender {
     
-//    ProfileViewController *linkToProfile = [[ProfileViewController alloc]init];
-//    
+    ProfileViewController *profileViewControler = [[ProfileViewController alloc]init];
+    [self.navigationController pushViewController:profileViewControler animated:YES];
+    
 //    UINavigationController *profileNavController = [[UINavigationController alloc] initWithRootViewController:profileViewController];
 //    
-    
-    NSLog(@"showProfile clicked");
-    
+
 }
 
 - (void)didReceiveMemoryWarning {
