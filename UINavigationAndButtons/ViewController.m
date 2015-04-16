@@ -14,10 +14,19 @@
 
 @implementation ViewController
 
+- (void)loadView {
+    CGRect viewRect = [[UIScreen mainScreen]bounds];
+    UIView *myView = [[UIView alloc]initWithFrame:viewRect];
+    self.view = myView;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
